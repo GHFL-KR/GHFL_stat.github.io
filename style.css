@@ -1,0 +1,47 @@
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ }
+h1 { color: #B30234;  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; }
+h2 { color: #000000;  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; }
+h4 { font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; }
+section { margin-top: 20px; }
+label { display: block; margin-top: 10px; }
+input[type="number"], input[type="text"] { width: 120px; padding: 6px; margin-left: 0px;   font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; }
+button { margin-top: 20px; padding: 10px 18px; background: #07004C; color: #fff; border: none; cursor: pointer; font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+button:hover { background: #07004C; }
+.result { margin-top: 24px; padding: 1; border: 1px solid #ffffff; background: #ffffff; }
+.error { color: #c0392b; font-weight: bold; margin: 10px 0 20px; }
+.summary { margin-top: 6px; font-size: 14px; color: #555; }
+.summary.ok { color: #2c7a4b; }   /* 조건 충족 시 */
+.summary.warn { color: #c0392b; } /* 조건 미충족 시 */

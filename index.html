@@ -1,0 +1,64 @@
+<html lang="ko">
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+</style>
+  <meta charset="UTF-8">
+  <title>능력치 계산기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>계화외국어고등학교 역극방 능력치 계산기</h1>
+  <div id="error" class="error"></div>
+
+  <section>
+    <h2>가중치 입력 [합계: 100]</h2>
+    <label>언수외 가중치 [최소: 10 | 최대: 90]: <input type="number" id="A1" min="10" max="90"></label>
+    <label>예체능 가중치 [최소: 10 | 최대: 90]: <input type="number" id="A2" min="10" max="90"></label>
+    <div id="weights-summary" class="summary"></div>
+  </section>
+
+  <section>
+    <h2>언수외 점수 [합계: 10]</h2>
+    <label>언어 [최소: 1 | 최대: 8]: <input type="number" id="A11" min="1" max="8"></label>
+    <label>수리 [최소: 1 | 최대: 8]: <input type="number" id="A12" min="1" max="8"></label>
+    <label>외국어(전공) [최소: 1 | 최대: 8]: <input type="number" id="A13" min="1" max="8"></label>
+    <div id="academic-summary" class="summary"></div>
+  </section>
+
+  <section>
+    <h2>예체능 점수 [합계: 10]</h2>
+    <label>음악 [최소: 1 | 최대: 8]: <input type="number" id="A21" min="1" max="8"></label>
+    <label>미술 [최소: 1 | 최대: 8]: <input type="number" id="A22" min="1" max="8"></label>
+    <label>체육 [최소: 1 | 최대: 8]: <input type="number" id="A23" min="1" max="8"></label>
+    <div id="arts-summary" class="summary"></div>
+  </section>
+
+  <section>
+    <h2>비지식 점수 [합계: 50]</h2>
+    <label>체력 [최소: 5 | 최대: 30]: <input type="number" id="B1" min="5" max="30"></label>
+    <label>외모 [최소: 5 | 최대: 30]: <input type="number" id="B2" min="5" max="30"></label>
+    <label>언변 [최소: 5 | 최대: 30]: <input type="number" id="B3" min="5" max="30"></label>
+    <label>재력 [최소: 5 | 최대: 30]: <input type="number" id="B4" min="5" max="30"></label>
+    <label>집안 [최소: 5 | 최대: 30]: <input type="number" id="B5" min="5" max="30"></label>
+    <div id="nonknowledge-summary" class="summary"></div>
+  </section>
+
+  <section>
+    <h2>캐릭터 이름</h2>
+    <input type="text" id="name" placeholder="캐릭터 이름 입력">
+  </section>
+
+  <button id="calc-btn">계산하기</button>
+
+  <div class="result" id="result">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  <h4>계산이 진행되지 않을 시 화면을 최상단으로 올려 오류 발생 여부를 확인해주세요.</h4>
+  <h4>본 웹페이지는 비상업 용도이며 소스 코드에 대한 저작권을 주장하지 않습니다.</h4>
+  <a href="https://ghfl.notion.site/2c6f2e5490d780db8a89dd0bba33d0d2?source=copy_link"><h4>웹페이지 제작 과정 중 부분적인 인공지능 사용에 대하여</h4></a>
+  <a href="https://gourl.kr/GHFL_Notice"><h4>계화외국어고등학교 역극방 홈페이지 바로가기</h4></a>
+  <h4>GHFL Role-Playing Community</h4>
+</html>
