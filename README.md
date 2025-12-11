@@ -2,4 +2,4 @@
 
 자유로이 사용해주세요. 소스 코드에 대해 저작권 주장하지 않습니다.
 
-https://share.novela.so/file/693a6344d983a5b5b50b647a
+https://gourl.kr/GHFL_notice
